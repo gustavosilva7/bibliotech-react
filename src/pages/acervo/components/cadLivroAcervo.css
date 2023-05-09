@@ -1,0 +1,102 @@
+.backDropModal {
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.9);
+    backdrop-filter: blur(5px);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.modal {
+    width: 50%;
+    height: 60%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 1px 2px 7px 2px #fff;
+    border-radius: 20px;
+    padding: 2% 5%;
+}
+.headerModalAcervo{
+    display: flex;
+    width: 100%;
+    height: 10%;
+    position: relative;
+}
+.headerModalAcervo h2 {
+    font-size: 135%;
+    font-weight: 800;
+    font-weight: 500;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+#closeModalAcervo {
+    font-size: larger;
+    font-weight: 500;
+    position: absolute;
+    top: 5%;
+    right: 1%;
+    transform: translate(-0%, -50%);
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    font-weight: 800;
+    border: none;
+    box-shadow: inset 1px 1px 1px 1px #999;
+}
+form{
+    width: 100%;
+    height: 90%;
+}
+.allDadosCadLivro {
+    display: flex;
+    flex-direction: column;
+    gap: 3%;
+    height: 65%;
+    width: 100%;
+    align-items: center;
+    gap: 3%;
+}
+
+.dadosCadLivro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 45%;
+    gap: 3%;
+}
+
+.dadosCadLivro div {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border: solid 2px green;
+}
+
+.dadosCadLivro div label {
+    font-size: 105%;
+    font-weight: 600;
+    border: solid 2px yellow;
+}
+
+.dadosCadLivro  div input {
+    width: 100%;
+    height: 100%;
+    border: solid 2px red;
+}

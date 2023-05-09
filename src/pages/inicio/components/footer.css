@@ -1,0 +1,45 @@
+.footerMain {
+    width: 100%;
+    height: 40%;
+    display: flex;
+}
+
+.bloco {
+    background-color: #2b2b2b;
+    width: 100%;
+    height: 100%;
+    padding: 1%;
+    gap: 2%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    border: solid 3px yellow;
+}
+
+.bloco div {
+    width: 100%;
+    height: 25%;
+    padding: 1%;
+    gap: 2%;
+    display: flex;
+    border: solid 3px yellow;
+}
+
+.bloco div input {
+    width: 95%;
+    height: 100%;
+}
+
+.bloco div button {
+    width: 5%;
+    height: 100%;
+}
+
+.bloco ul{
+    height: 90%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    border: solid 3px yellow;
+}

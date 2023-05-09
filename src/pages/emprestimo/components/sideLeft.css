@@ -1,0 +1,59 @@
+.sideLeft {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.titleEmpres {
+    position: absolute;
+    top: 12%;
+    left: 5%;
+}
+
+.formNewEmpres {
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    height: 55%;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.formNewEmpres label{
+    font-size: small;
+    color: #fff;
+}
+.formNewEmpres input{
+    width: 100%;
+    height: 42px;
+    border: none;
+    border-radius: 10px;
+    padding: 2%;
+}
+.tombo-autor,
+.serie-turma{
+    display: flex;
+    width: 100%;
+    gap: 15px;
+}
+.tombo-autor div,
+.serie-turma div{
+    width: 50%;
+}
+.divBtnEnviarEmpres{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.divBtnEnviarEmpres button{
+    width: 35%;
+    height: 50%;
+    border: none;
+    border-radius: 10px;
+    font-size: larger;
+}

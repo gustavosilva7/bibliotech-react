@@ -1,0 +1,34 @@
+.mainInicio {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 40%;
+}
+
+.mainInicio section {
+    height: 65%;
+    width: 20%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10%;
+    padding: 2%;
+    
+}
+
+.mainInicio section:nth-child(1) {background-color: blue;}
+
+.mainInicio section:nth-child(2) {background-color: red;}
+
+.mainInicio section:nth-child(3) {background-color: green;}
+
+.mainInicio section h2 {
+    color: #fff;
+}
+
+.mainInicio section p {
+    color: #fff;
+    font-size: 5.2em;
+}

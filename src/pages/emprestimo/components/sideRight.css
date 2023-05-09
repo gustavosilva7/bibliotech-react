@@ -1,0 +1,124 @@
+.sideRight {
+    height: 100%;
+    width: 46%;
+    position: relative;
+}
+
+.calendario {
+    width: 100%;
+    height: 60%;
+    background-color: #fff;
+    border-radius: 10px;
+    position: absolute;
+    top: 43%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.wrapper {
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.12);
+}
+
+.wrapper header {
+    display: flex;
+    align-items: center;
+    padding: 22px 25px 8px;
+    height: 14%;
+    justify-content: space-between;
+}
+
+header .icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 65%;
+    height: 100%;
+    background-color: #aaa;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+header .icons p {
+    height: 100%;
+    width: 29%;
+    cursor: pointer;
+    color: #878787;
+    font-size: 97%;
+    user-select: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.current-date {
+    font-size: 120%;
+    font-weight: 500;
+    background-color: #05704f;
+    border-radius: 20px;
+    width: 42%;
+    padding: 0% 2%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calendar {
+    padding: 20px;
+}
+
+.calendar ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    text-align: center;
+}
+
+.calendar .days {
+    margin-bottom: 20px;
+}
+
+.calendar li {
+    color: #333;
+    width: calc(100% / 7);
+    font-size: 1.07rem;
+}
+
+.calendar .weeks li {
+    font-weight: 500;
+    cursor: default;
+}
+
+.calendar .days li {
+    z-index: 1;
+    cursor: pointer;
+    position: relative;
+    margin-top: 30px;
+}
+
+.days li.inactive {
+    color: #aaa;
+    border-radius: 1px;
+}
+
+.days li.active {
+    color: #fff;
+}
+
+.days li.active::before {
+    position: absolute;
+    content: "";
+    left: 50%;
+    top: 50%;
+    height: 190%;
+    width: 60%;
+    z-index: -1;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    color: blue;
+    background-color: #05704F;
+}
